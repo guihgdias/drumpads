@@ -2,6 +2,12 @@ document.body.addEventListener('keyup', (event) => {
    playSound(event.code.toLowerCase())
 })
 
+document.body.addEventListener('click', (event) => {
+   if(event.target.attributes["data-key"]) {
+      playSound(event.target.attributes["data-key"].value)
+   }
+})
+
 document.querySelector('#play').addEventListener('click', () => {
    let song = document.querySelector('#tablature').value
 
