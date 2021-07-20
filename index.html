@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title></title>
+
+      <meta name="description" content="Bateria Lindinha">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+
+      <link rel="stylesheet" href="style/reset.css">
+      <link rel="stylesheet" href="style/general.css">
+   </head>
+   <body>
+      <header class="main-header">
+         <h1 class="main-title">Bateria Lindinha</h1>
+      </header>
+      <main class="main-content">
+         <div class="main-drums">
+            <input class="input" type="number" placeholder="Delay..." id="delay">
+            <div class="keyboard">
+               <div class="key" data-key="numpad7">7</div>
+               <div class="key" data-key="numpad8">8</div>
+               <div class="key" data-key="numpad9">9</div>
+               <div class="key" data-key="numpad4">4</div>
+               <div class="key" data-key="numpad5">5</div>
+               <div class="key" data-key="numpad6">6</div>
+               <div class="key" data-key="numpad1">1</div>
+               <div class="key" data-key="numpad2">2</div>
+               <div class="key" data-key="numpad3">3</div>
+            </div>
+            <input class="input" type="text" placeholder="Faça uma composição..." id="tablature">
+            <button class="button" id="play">Tocar</button>
+         </div>
+      </main>
+      <audio id="s-numpad1" src="assets/sounds/numpad1.wav"></audio>
+      <audio id="s-numpad2" src="assets/sounds/numpad2.wav"></audio>
+      <audio id="s-numpad3" src="assets/sounds/numpad3.wav"></audio>
+      <audio id="s-numpad4" src="assets/sounds/numpad4.wav"></audio>
+      <audio id="s-numpad5" src="assets/sounds/numpad5.wav"></audio>
+      <audio id="s-numpad6" src="assets/sounds/numpad6.wav"></audio>
+      <audio id="s-numpad7" src="assets/sounds/numpad7.wav"></audio>
+      <audio id="s-numpad8" src="assets/sounds/numpad8.wav"></audio>
+      <audio id="s-numpad9" src="assets/sounds/numpad9.wav"></audio>
+      <script src="script/script.js"></script>
+      </body>
+</html>

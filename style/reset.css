@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   font-family: sans-serif;
+   font-size: 15px;
+   
+   --black: rgb(40, 40, 40);
+   --black-two: rgb(15, 15, 15);
+   --white: rgb(225, 225, 225);
+   --active: rgb(50, 170, 40);
+
+   --title: 2rem;
+   --medium: 1.5rem;
+   --normal: 1rem;
+   --small: .7rem;
+
+   --bold: bold;
+}
+
+body {
+   background: var(--black);
+}
